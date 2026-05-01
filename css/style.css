@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,600;1,600&family=Poppins&display=swap');
+
+body{
+  font-size: 9.6px;
+}
+
+main, nav, a, h3{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+
+h1, h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+a{
+  color: #260101;
+  text-decoration: none;
+}
+
+.site{
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*################ FRETE GRÁTIS ################*/
+.frete{
+  color: #fff;
+  background: #0468bf;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  letter-spacing: 2.1px;
+  justify-items: center;
+}
+
+.frete i{
+  margin-right: 0.3%;
+}
+
+/*################ CABEÇALHO ################*/
+.site div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalho img{
+  width: 10%;
+}
+
+.menu{
+  display: flex;
+  margin-top: 1%;
+  font-size: 1.5em;
+  margin-left: 40px;
+}
+
+.menu a{
+  margin: 0 20px 0 0;
+  display: flex;
+  align-items: center;
+}
+.menu a:hover{
+  background-color: #0468bf;
+}
+
+.menu img{
+  width: 17px;
+  margin: 8px;
+}
+
+.menu ul{
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+/*################ BOTÃO BUSCA ################*/
+
+.botaoBusca{
+  background: #BF6545;
+  width: 199px; /*ou 18.5%*/
+  height: 32px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botaoBusca h2{
+  color: #fff;
+  font-size: 1.3em;
+  margin-left: 5%;
+}
+
+.botaoBusca img{
+  width: 10%;
+  padding-right: 4%;
+}
+
+/*################ BOTÃO LOGIN ################*/
+.loginCadas img{
+  width: 22%;
+  margin-left: 21px;
+  margin-right: 5px;
+}
+
+.loginCadas h3{
+  width: 100%;
+  margin-right: 26px;
+  line-height: 125%;
+}
+
+/*################ BOTÃO CARRINHO CORAÇÃO ################*/
+.iconesCabeca{
+  width: 85px; /*ou 26%*/
+}
+
+.iconesCabeca img{
+  width: 27.15px;
+}
+
+.iconesCabeca div{
+  flex-direction: column;
+  align-items: end;
+  margin-top: -10px;
+}
+
+.iconesCabeca div img:nth-child(2){
+  max-width: 14px;
+  margin-top: -26px;
+  margin-right: -5px;
+}
+
+/*################ BANNER PRINCIPAL ################*/
+
+.bannerPrincipal{
+  max-width: 100%;
+  margin: 22px 0 auto;
+}
+
+.bannerPrincipal img{
+  max-width: 1110px;
+  border-radius: 15px;
+}
+
+.bannerPrincipal div{
+  margin-left: 1.8%;
+  width: 15px;
+  height: 200px;
+  flex-direction: column;
+  position: absolute;
+}
+
+.bolinha1{
+  background: #0468bf;
+  max-height: 15px;
+  border-radius: 100%;
+}
+
+.bolinha2, .bolinha3, .bolinha4, .bolinha5{
+  background: #D2D2D2;
+  max-width: 9px;
+  max-height: 9px;
+  border-radius: 100%;
+}
+
+.bolinha2{
+  top: 25%;
+}
+
+.bolinha3{
+  top: 50%;
+}
+
+.bolinha4{
+  top: 75%;
+}
+
+.bolinha5{
+  top: 100%;
+}
+
+/*################ CATEGORIAS PRINCIPAIS ################*/
+
+.principaisCat {
+  margin: 42.8px 0;
+}
+
+.principaisCat a:nth-child(1){
+  background-color: #0468bf;
+  color: #fff;
+  width: 182.73px;
+  height: 66.1px; /*66+25.9 => altura total*/
+  border-radius: 21px;
+  font-size: 2.2em;
+  line-height: 125%;
+  letter-spacing: 0.96px;
+  padding: 25.9px 0 0 22.4px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.principaisCat a img{
+  max-width: 92px;
+  height: 92px;
+  display: flex;
+}
+
+/*################ OS MAIS VENDIDOS ################*/
+
+.maisVendidos {
+  display: flex;
+}
+
+.btnmv a{
+  background-color: #BF6545;
+  color: #fff;
+  width: 182.73px;
+  height: 270px; /*66+25.9 => altura total*/
+  border-radius: 21px;
+  font-size: 2.7em;
+  line-height: 125%;
+  letter-spacing: 0.96px;
+  padding: 10px 0 0 22.4px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.produto1{
+  flex-direction: column;
+  max-width: 190.4px;
+}
+
+.produto1 div{
+  flex-direction: column;
+}
+
+.img-produto1{
+  width: 190.4px;
+  height: 190.4px;
+  background: url(../img/camisa-polo.png) no-repeat center/100%;
+  border-radius: 14px;
+}
+
+.img-produto1 img{
+  position: relative;
+  width: 14%;
+  top: 10px; left: 80%;
+}
+
+.img-produto1 h6{
+  font-size: 1.1em;
+  font-weight: 900;
+  position: relative;
+  top: 64%; left: 5%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.img-produto1 h6:nth-child(2){
+  color: #574A16;
+  background: #F1C40F;
+  width: 65px;
+  height: 15px;
+  justify-content: center;
+}
+
+.img-produto1 h6:nth-child(3){
+  color: #0E5233;
+  background: #5DD39E;
+  width: 95px;
+  height: 15px;
+  justify-content: center;
+}
+
+.produto1 h4{
+  font-size: 1.1em;
+  font-weight: 600;
+  display: flex;
+  justify-content: baseline;
+}
